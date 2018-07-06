@@ -1,0 +1,178 @@
+:root{
+	font-size: 22px;
+	background-color: black;
+	color: white;
+	margin: 1vw;
+};
+
+.link{
+	margin-left: 30%;
+}
+.link .home{
+	padding-left: 7%;
+	padding-right: 7%;
+	color:maroon;
+}
+.link p{
+	
+	padding-left: 7%;
+	background-color: grey;
+	letter-spacing: 10%;
+	border-radius: 10px;
+}
+
+.link a:hover{
+color:yellow;
+background-color: maroon;
+box-shadow: 0 2px 15px 0 #35eea4;
+}
+
+.inception{
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+.heading .sub-heading{
+	align-items: center;
+	display: flex;
+	color: white;
+	background-color: black;
+	border-color: grey;
+	border-width: 10px;
+	border-style: dotted double;
+	height:10rem;
+	border-radius: 15px;
+	align-items: center;
+	padding: 0 10vw 2vw;
+
+}
+
+
+
+#sub-heading{
+	align-self: right;
+	
+}
+
+
+.inception .intro{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size:25px;
+	font-style: "times"; 
+} 
+
+
+.intro .mine .my-img{
+
+	box-shadow: 5px 5px 10px 2px lightblue;
+	border-radius: 20px;
+	width: 23vw;
+	margin-left: 45%;
+	
+}
+.mine .my-img{
+
+display: flex;
+justify-content: center;
+
+}
+.career{
+	margin-left: 50vw;
+}
+.work{
+	flex-flow: row;
+
+}
+.images .picture{
+
+	border-radius: 25px;
+	width:20vw;
+}
+.ending{
+	margin-left: 50vw;
+}
+.thumbniles{
+	white-space: 20;
+	padding: 0 30vw;
+	
+}
+
+.thumbniles .icon{
+	width: 20px;
+	align-items: center;
+	padding: 0 5vw 0 2vw;
+	
+}
+
+@media only screen and (min-width: 725px) and (max-width: 1250px){
+	.inception{
+		flex-direction: column;
+	}
+	.intro .mine .my-img{
+		order:-1;
+		width: 40vw;
+	}
+}
+@media only screen and (min-width:450px) and (max-width: 725px) {
+    .inception {
+        flex-direction: column;
+    }
+    
+    .intro .mine .my-img{
+        order: -1;
+        width: 55vw;
+        margin-left: 5px;
+    }
+    .thumbniles .icon{
+	width: 1.5rem;
+	align-items: center;
+	padding: 0 5vw 0 2vw;
+	
+}
+}
+@media only screen and (min-width: 300px) and (max-width:450px) {
+    .inception {
+        flex-direction: column;
+    }
+    .inception .heading .sub-heading{
+    	font-size: 0.7rem;
+    }
+    .intro .mine .my-img{
+    	margin-left: 5px;
+        order: -1;
+        width: 80vw;
+    }
+    .thumbniles .icon{
+	width: 1.5rem;
+	align-items: center;
+	padding: 0 5vw 0 2vw;
+	
+}
+}
+
+@media only screen and (max-width:300px) {
+    .inception {
+        flex-direction: column;
+    }
+    .inception .heading .sub-heading{
+    	font-size: 0.7rem;
+    }
+    .intro .mine .my-img{
+    	margin-left: 5px;
+        order: -1;
+        width: 80vw;
+    }
+    .thumbniles .icon{
+	width: 1.5rem;
+	align-items: center;
+	padding: 0 5vw 0 2vw;
+	
+}
+}
+
+
+
+
