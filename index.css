@@ -103,7 +103,7 @@ justify-content: center;
 .thumbniles .icon{
 	width: 20px;
 	align-items: center;
-	padding: 0 5vw 0 2vw;
+	padding: 0 3vw 0 2vw;
 	
 }
 
@@ -114,6 +114,18 @@ justify-content: center;
 	.intro .mine .my-img{
 		order:-1;
 		width: 40vw;
+	}
+	.thumbniles{
+	white-space: 20;
+	padding: 0 30vw;
+	
+	}
+
+	.thumbniles .icon{
+	width: 24px;
+	align-items: center;
+	padding: 0 3vw 0 1.5vw;
+	
 	}
 }
 @media only screen and (min-width:450px) and (max-width: 725px) {
@@ -126,10 +138,15 @@ justify-content: center;
         width: 55vw;
         margin-left: 5px;
     }
+    .thumbniles{
+	white-space: 20;
+	padding: 0 26vw;
+	
+	}
     .thumbniles .icon{
 	width: 1.5rem;
 	align-items: center;
-	padding: 0 5vw 0 2vw;
+	padding: 0 1vw 0 1vw;
 	
 }
 }
@@ -145,10 +162,15 @@ justify-content: center;
         order: -1;
         width: 80vw;
     }
+    .thumbniles{
+	white-space: 20;
+	padding: 0 20vw;
+	
+}
     .thumbniles .icon{
 	width: 1.5rem;
 	align-items: center;
-	padding: 0 5vw 0 2vw;
+	padding: 0 1vw 0 1vw;
 	
 }
 }
@@ -165,10 +187,15 @@ justify-content: center;
         order: -1;
         width: 80vw;
     }
+    .thumbniles{
+	white-space: 20;
+	padding: 0 13vw;
+	
+	}
     .thumbniles .icon{
 	width: 1.5rem;
 	align-items: center;
-	padding: 0 5vw 0 2vw;
+	padding: 0 1vw 0 1vw;
 	
 }
 }
