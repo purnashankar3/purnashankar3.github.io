@@ -200,6 +200,20 @@ justify-content: center;
 	color:maroon;
 	}
 }
+@media only screen and (min-width: 150px) and (max-width: 449px){
+
+    .thumbniles{
+	white-space: 20;
+	padding: 0 20vw;
+	
+	}
+    .thumbniles .icon{
+	width: 1.2rem;
+	align-items: center;
+	padding: 0 1vw 0 1vw;
+	
+	}
+}
 
 @media only screen and (max-width:300px) {
     .inception {
